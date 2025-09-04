@@ -1,0 +1,43 @@
+.hero {
+    background-image: url('img_asset/dowload1.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 30% 0;
+    color: #ffffff; /* pink muda */
+}
+.project{
+    color: palevioletred;
+}
+
+section, .skills, #profile {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+/* Custom navbar color */
+      .navbar-color {
+        background-color: #440000 !important; /* Magenta pink */
+      }
+      .navbar-color .nav-link,
+      .navbar-color .navbar-brand {
+        color: white !important;
+      }
+      .navbar-color .nav-link:hover {
+        color: #ff2626 !important;
+      }
+
+      /* Remove underline from footer links */
+#footer a {
+  text-decoration: none;
+  color: inherit; /* keeps them white by default */
+  transition: color 0.3s ease;
+}
+
+/* Hover effects */
+#footer a:hover .fa-youtube {
+  color: #ff2626; /* YouTube red */
+}
+#footer a:hover .fa-instagram {
+  color: #ff2626; /* Instagram pink */
+}
